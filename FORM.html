@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+	
+	<html lang="EN">
+
+		<head>
+			<title>CENSUS FORM</title>
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" href="FORM.css">
+		</head>
+
+		<body>
+			
+				<div class="container">
+
+					<div class="left">	
+
+						<form class="form1">
+							
+							<h2>General Information</h2>
+
+							<div class="content1">
+
+								<p>
+									<select id="title" name="title">
+										<option>Title</option>
+										<option>Mr.</option>
+										<option>Mrs.</option>
+										<option>Ms.</option>
+									</select>
+								</p>
+
+								<p>
+									<input type="text" id="FirstName" name="firstName" placeholder="First Name">   <input type="text" id="LastName" name="LastName" placeholder="Last Name">
+								</p>
+
+								<p>	
+									<select id="position" name="position">
+										<option>Position</option>
+										<option>Worker</option>
+										<option>consultant</option>
+										<option>Intern</option>	
+									</select>
+								</p>
+
+								<p>
+									<input type="text" id="company" name="company" placeholder="Company">
+								</p>
+								
+									<div class="Busi">
+										<input type="text" id="area" name="area" placeholder="Business Area">
+										<select id="employees" name="employees">
+											<option>Employees</option>
+											<option>KDA</option>
+											<option>Simplon</option>
+											<option>Google</option>	
+										</select>
+									</div>
+
+							</div>
+
+						</form>
+
+					</div>
+
+					<div class="right">
+
+						<form class="form2">	
+
+							<h2>Contact Details</h2>
+
+							<div class="content2">
+
+								<p>
+									<input type="text" id="street" name="street" placeholder="Street + Nr">	
+								</p>
+
+								<div class="info">
+									<p>
+										<textarea name="Information" cols="44" rows="1" placeholder="Additional Information" ></textarea>
+									</p>
+
+								
+									<div class="zip">
+										<input type="text" id="zipcode" name="zipcode" pattern="[A-Za-z]{3}" title="Three letter country code" placeholder="Zip Code">
+										<select id="place" name="place">
+											<option>Place</option>
+											<option>Kinshasa</option>
+											<option>Paris</option>
+											<option>Toronto</option>
+											<option>Barcelona</option>
+										</select>
+									</div>
+								
+								</div>
+
+								<p>
+									<select id="country" name="country">
+										<option>Country</option>
+										<option>DRCongo</option>
+										<option>Canada</option>
+										<option>USA</option>
+										<option>UK</option>
+									</select>
+								</p>
+
+								<p>
+									<input type="number" id="number" name="code" placeholder="Code+">
+									<input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number">
+								</p>
+
+								<p>
+									<input type="email" id="email" name="email" placeholder="Your Email">
+								</p><br/>
+
+									<div class="foot">
+										<input type="radio" id="radio" name="radio" value="radio"> <label for="radio">I do accept <a href="terms&conditions">Terms and Conditions</a> <br><span>of your site</span></label>
+									</div>
+							
+									<p>
+										<input type="submit" value="Register Badge">
+									</p>
+
+							</div>
+
+						</form>
+
+					</div>
+
+				</div>
+
+		</body>
+
+	</html>
